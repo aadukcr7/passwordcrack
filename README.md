@@ -4,8 +4,8 @@
 This project demonstrates how a brute force attack works in a safe, local, and educational way. A brute force attack tries every possible combination until the correct password is found. This simulation only tests a user-provided password on your own machine and does not interact with any real systems.
 
 ## Features
-- Simulates brute force cracking using lowercase letters and digits
-- Generates combinations from length 1 up to the password length
+- Simulates brute force cracking using a configurable character set
+- Generates combinations from length 1 up to a user-defined max length
 - Counts total attempts and total time taken
 - Stops immediately once the password is found
 - Clear ethical and educational warnings
@@ -22,7 +22,7 @@ This project demonstrates how a brute force attack works in a safe, local, and e
    ```bash
    python brute_force.py
    ```
-4. Enter a weak password using only lowercase letters (a-z) and digits (0-9).
+4. Enter a password, choose the character set, and (optionally) set a max length.
 
 ## Ethical Warning
 This project is **For Educational Purposes Only**. Do not use this code to target real systems, networks, or accounts. Always practice cybersecurity responsibly and legally.
